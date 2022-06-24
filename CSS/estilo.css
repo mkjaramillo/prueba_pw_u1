@@ -1,0 +1,16 @@
+button{
+    display: block;
+    
+    border-radius: 5px;
+}
+#mensaje{
+    background-color: blue;
+    border: solid;
+    font-family: 'Times New Roman', Times, serif;
+}
+table{
+    margin: auto;
+}
+h1{
+    text-align: center;
+}

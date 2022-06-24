@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="../JS/comportamiento.js"></script>
+    <link rel="stylesheet" href="../CSS/estilo.css">
+    <title>Juego Pokémon</title>
 </head>
 <body>
-    <h1>hola como</h1>
+    <h1 id="idTexto">Seleccione el pokémon correcto</h1>
+    <table>
+        <tr>
+            <td>
+                <img id="imagen"src="../img/pnegro.jpg" alt=""> 
+            </td>
+
+          
+        </tr>
+        <tr>
+            <td>
+                <button id="boton1" onclick="imagenCorrecta('keldeo-ordinary')">keldeo-ordinary</button>
+                <br>
+                <button id="boton2"  onclick="imagenCorrecta('drilbur')">drilbur</button>
+                <br>
+                <button id="boton3"  onclick="imagenCorrecta('ninjask')" >ninjask</button>
+                <br>
+                <button id="boton4"  onclick="imagenCorrecta('excadrill')">excadrill</button> 
+            </td>
+           
+        </tr>
+        <tr>
+            <td>
+                <p id="mensaje"></p>
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+                <button  onclick="reiniciar()" id="idReiniciar">Reiniciar</button>  
+            </td>
+        </tr>
+    </table>
+    
 </body>
 </html>
